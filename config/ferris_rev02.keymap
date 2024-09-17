@@ -20,62 +20,62 @@
 
         left_brace {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <2 3>;
+            key-positions = <2 1>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <4 3>;
+            key-positions = <3 2>;
         };
 
         left_parenthesis {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <14 15>;
+            key-positions = <11 12>;
         };
 
         right_parenthesis {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <16 15>;
+            key-positions = <13 12>;
         };
 
         left_bracket {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <27 26>;
+            key-positions = <21 22>;
         };
 
         right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <28 27>;
+            key-positions = <23 22>;
         };
 
         minus {
             bindings = <&kp MINUS>;
-            key-positions = <7 8>;
+            key-positions = <7 6>;
         };
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <8 9>;
+            key-positions = <8 7>;
         };
 
         colon {
             bindings = <&kp COLON>;
-            key-positions = <19 20>;
+            key-positions = <16 17>;
         };
 
         escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <20 21>;
+            key-positions = <17 18>;
         };
 
         exclamation {
             bindings = <&kp EXCLAMATION>;
-            key-positions = <31 32>;
+            key-positions = <26 27>;
         };
 
         delete {
             bindings = <&kp DELETE>;
-            key-positions = <32 33>;
+            key-positions = <27 28>;
         };
     };
 
@@ -123,7 +123,7 @@
 &trans  &trans  &trans  &trans  &trans    &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans
 &trans  &trans  &trans  &trans  &trans    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans
 &trans  &trans  &trans  &trans  &trans    &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-                                &trans  &trans    &kp N0  &trans
+                        &trans  &trans    &kp N0  &trans
             >;
         };
 
@@ -132,7 +132,7 @@
 &trans  &trans  &trans  &trans  &trans    &trans      &kp LG(LEFT)    &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT)
 &trans  &trans  &trans  &trans  &trans    &caps_word  &kp LEFT_ARROW  &kp DOWN_ARROW      &kp UP_ARROW      &kp RIGHT
 &trans  &trans  &trans  &trans  &trans    &kp INSERT  &kp HOME        &kp PAGE_DOWN       &kp PAGE_UP       &kp END
-                              &trans  &trans    &trans      &trans
+                        &trans  &trans    &trans      &trans
             >;
         };
     };
